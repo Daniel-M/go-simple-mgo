@@ -46,4 +46,5 @@ func GetDBData() (nItmOne, nItmTwo int) {
 func main() {
 	// Get the counts
 	itemOne, itemTwo := GetDBData()
+	fmt.Println("The queries gave ", itemOne+itemTwo, "results")
 }
